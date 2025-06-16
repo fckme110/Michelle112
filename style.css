@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #ffe0f0, #f0e0ff);
+  margin: 0;
+  padding: 2rem;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+input, textarea {
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+}
+button {
+  padding: 0.7rem;
+  background: #ff66aa;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+#messages {
+  margin: 1rem 0;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  height: 200px;
+  overflow-y: scroll;
+}

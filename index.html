@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Michelle110 - Flirtbot</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Flirtbot Michelle110 💖</h1>
+    <form id="persona-form">
+      <input type="text" id="name" placeholder="Name" required />
+      <input type="number" id="age" placeholder="Alter" required />
+      <input type="text" id="origin" placeholder="Herkunft" required />
+      <input type="text" id="language" value="Deutsch" required />
+      <textarea id="bio" placeholder="Lebensgeschichte" required></textarea>
+      <button type="submit">Bot konfigurieren</button>
+    </form>
+
+    <div id="chat" style="display:none;">
+      <div id="messages"></div>
+      <input type="text" id="user-input" placeholder="Nachricht eingeben..." />
+      <button onclick="sendMessage()">Senden</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
